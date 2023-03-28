@@ -1,0 +1,1 @@
+This is a script for instalocking your favourite agents in valorant. You can add your agents in this as well by making a pull request. If you have any suggestions or bugs feel free to make a pull request on it!
