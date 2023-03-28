@@ -7,7 +7,8 @@ print(pyautogui.position())
 
 jettCords = (1090,929)
 reynaCords = (883,997)
-razeCords = (775,984)
+razeCordsX = 775
+razeCordsY = 984
 
 def intsalockJett():
     for i in range(0,51):
@@ -31,3 +32,11 @@ def instalockRaze():
         print("Clicked " + str(clicked) + " times")
 
 
+def instalockAnything (x,y):
+    for i in range(0,51):
+        pyautogui.click(x,y)
+        pyautogui.click(1002,820)
+        clicked = i+1
+        print("Clicked " + str(clicked) + " times")
+
+instalockAnything(razeCordsX,razeCordsY) 
