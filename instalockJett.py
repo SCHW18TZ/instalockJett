@@ -5,6 +5,10 @@ print("Starting in 5 seconds...")
 print(pyautogui.size())
 print(pyautogui.position())
 
+jettCords = (1090,929)
+reynaCords = (883,997)
+razeCords = (775,984)
+
 def intsalockJett():
     for i in range(0,51):
         pyautogui.click(1090,929)
@@ -12,4 +16,18 @@ def intsalockJett():
         clicked = i+1
         print("Clicked " + str(clicked) + " times")   
 
-intsalockJett()
+def instalockReyna():
+    for i in range(0,51):
+        pyautogui.click(883,997)
+        pyautogui.click(1002,820)
+        clicked = i+1
+        print("Clicked " + str(clicked) + " times")
+
+def instalockRaze():
+    for i in range(0,51):
+        pyautogui.click(775,984)
+        pyautogui.click(1002,820)
+        clicked = i+1
+        print("Clicked " + str(clicked) + " times")
+
+
