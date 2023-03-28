@@ -5,6 +5,7 @@ print("Starting in 5 seconds...")
 print(pyautogui.size())
 print(pyautogui.position())
 
+
 razeCordsX = 775
 razeCordsY = 984
 reynaCordsX = 883
