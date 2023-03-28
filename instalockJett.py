@@ -28,3 +28,6 @@ while keyboard.is_pressed('e') == False:
             if keyboard.is_pressed('e'):
                 print("E was pressed, exiting script")
                 break
+
+
+#Made by instagram.com/hasrhbhardwa_6969
