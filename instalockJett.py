@@ -6,12 +6,12 @@ print(pyautogui.size())
 print(pyautogui.position())
 
 
-razeCordsX = 775
-razeCordsY = 984
-reynaCordsX = 883
-reynaCordsY = 997
-jettCordsX = 1050
-jettCordsY = 929
+razeCordsX =629
+razeCordsY = 1025
+reynaCordsX = 714
+reynaCordsY = 1025
+jettCordsX = 1022
+jettCordsY = 930
 
 
 while keyboard.is_pressed('e') == False:
@@ -20,7 +20,7 @@ while keyboard.is_pressed('e') == False:
     if keyboard.is_pressed('f'):
         print("F was pressed")
         for i in range(0,51):
-            pyautogui.click(jettCordsX,jettCordsY)
+            pyautogui.click(reynaCordsX,reynaCordsY)
             pyautogui.click(1002,820)
             clicked = i+1
             print("Clicked " + str(clicked) + " times")
